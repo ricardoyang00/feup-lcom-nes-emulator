@@ -38,7 +38,7 @@ IN MINIX:
     cd labs/src/
     make
     lcom_run proj
-<code>
+</code>
 
 ## Usage
 
