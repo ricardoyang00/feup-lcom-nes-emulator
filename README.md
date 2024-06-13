@@ -40,9 +40,10 @@ This repository only runs on the Minix image developed for the LCOM course at FE
 - Double-click the `.vbox` file to open VirtualBox with the settings for the MINIX-LCOM VM.
 
 4. **Clone the Repository**:
-   ```bash
-   # clone the repository
-   git clone git@github.com:ricardoyang00/NES_Emulator-LCOM.git
+```bash
+# clone the repository
+git clone git@github.com:ricardoyang00/NES_Emulator-LCOM.git
+```
 
 5. **Set Up Shared Folder**:
 - In the `MINIX-LCOM/` folder, create a `shared/` folder.
