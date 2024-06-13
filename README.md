@@ -17,18 +17,18 @@ An NES emulator coded entirely in C using device drivers developed for [LCOM](ht
 Welcome to the NES Emulator! This project aims to provide an emulator for the Nintendo Entertainment System (NES), written from the ground up to be portable and easily compatible with various device drivers, whether for Linux, Windows and Minix. This allows users to play classic NES games on modern hardware.
 
 ## Features
-- Accurate emulation of NES CPU, PPU, cartidge loading, mapping and contoller connection
-- Support for the popular NES file formats (.nes) with iNES headers
-- Serial connection to real controller through a `ESP8266` being used as a bridge
-- Various resolutions and scalling
-- Very fast loading and unloading of games
+- Accurate emulation of NES CPU, PPU, cartidge loading, mapping and contoller connection.
+- Support for the popular NES file formats (.nes) with iNES headers.
+- Serial connection to real controller through a `ESP8266` being used as a bridge.
+- Various resolutions and scalling.
+- Very fast loading and unloading of games.
 
 ## System Requirements
 This repository only runs on the Minix image developed for the LCOM course at FEUP. 
 
 **You can download the image [here](https://drive.google.com/file/d/1dM32zTzkTUEqNtTwsO-n__XO6r1Y5I-f/view?usp=sharing)**.
 
-> Since we are working with very low-level hardware configurations and direct access to the programmatic interface of a computer’s I/O devices raises security risks, it is recommended to use a `virtual machine` to emulate this project. The suggested solution is to run it on VirtualBox (the link above contains the `.vb` file).
+> Since we are working with low-level hardware configurations and direct access to the programmatic interface of a computer’s I/O devices raises security risks, it is recommended to use a `virtual machine` to emulate this project. The suggested solution is to run it on VirtualBox (the link above contains the `.vb` file).
 
 ## Installation
 
@@ -46,7 +46,7 @@ This repository only runs on the Minix image developed for the LCOM course at FE
 
 5. **Set Up Shared Folder**:
 - In the `MINIX-LCOM/` folder, create a `shared/` folder.
-- Open the settings for the MINIX VM in VirtualBox and set the shared folder to the shared/ directory you just created.
+- Open the settings for the MINIX VM in VirtualBox and set the shared folder to the `shared/` directory you just created.
 - Move the cloned repository into the `shared/` folder.
 
 6. **Start the VM**:
@@ -57,6 +57,8 @@ This repository only runs on the Minix image developed for the LCOM course at FE
 cd labs/src/
 make
 lcom_run proj
+
+# see more in USAGE about extra flags
 ```
 
 8. To exit the emulator's interface you can press `exit` key
@@ -79,7 +81,7 @@ You can also use these flags:
 
 ### Menu
 - **Mouse** - to select game
-- **Arrows** - `&rarr;` and `&larr;` to change menu page
+- **Arrows** - &larr; and &rarr; to change menu page
 - **Exit** -  to quit the program
 
 ### Game (emulator)
