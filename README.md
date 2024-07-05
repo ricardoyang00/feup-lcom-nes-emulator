@@ -10,7 +10,7 @@ An NES emulator coded entirely in C using device drivers developed for [LCOM](ht
 3. [System Requirements](#system-requirements)
 4. [Installation](#installation)
 5. [Usage](#usage)
-6. [Akacknowledgements](#acknowledgements)
+6. [Acknowledgements](#acknowledgements)
 
 
 ## Introduction
