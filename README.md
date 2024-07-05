@@ -81,6 +81,8 @@ You can also use these flags:
 
 **(Don't forget to wrap the flags in " ")**
 
+> for example `lcom_run proj "--no-uart"`
+
 ## Controls
 
 ### Menu
