@@ -53,7 +53,11 @@ git clone git@github.com:ricardoyang00/NES_Emulator-LCOM.git
 6. **Start the VM**:
 - Boot up the VM. Use `lcom` for the login and `lcom` for the password.
 
-7. **Build and Run the Project**:
+7. **Get the ROMs**: 
+- To use the emulator, ensure all [ROMs](roms/roms.txt) are placed in the `roms/` folder.
+- The roms that are expected to have are `supermariobros`, `soccer`, `DonkeyKong`, `mspacman`, and `BattleCity`.
+
+8. **Build and Run the Project**:
 ```bash
 cd labs/src/
 make
@@ -62,9 +66,7 @@ lcom_run proj
 # see more in USAGE about extra flags
 ```
 
-8. To exit the emulator's interface you can press `exit` key
-
-> ⚠️ To use the emulator, please ensure all [ROMs](roms/roms.txt) are placed in the `roms/` folder.
+9. To exit the emulator's interface you can press `exit` key.
 
 ## Usage
 
