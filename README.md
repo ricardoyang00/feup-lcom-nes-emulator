@@ -64,6 +64,7 @@ lcom_run proj
 
 8. To exit the emulator's interface you can press `exit` key
 
+> ⚠️ To use the emulator, please ensure all [ROMs](roms/roms.txt) are placed in the `roms/` folder.
 
 ## Usage
 
