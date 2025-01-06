@@ -4,6 +4,10 @@ An NES emulator coded entirely in C using device drivers developed for [LCOM](ht
 <a href="https://minix3.org/"><img src="https://img.shields.io/badge/OS-Minix%203-blue"></a>
 </br>
 
+<p align="center">
+  <img src="doc/images/nes-menu-mock.png" width=70%>
+</p>
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Features](#features)
@@ -91,7 +95,7 @@ You can also use these flags:
 - **Exit** -  to quit the program
 
 ### Game (emulator)
-<p align="center"><img src="/doc/image.png" alt="controller or keyboard instructions image" width=700></p>
+<p align="center"><img src="/doc/image.png" alt="controller or keyboard instructions image" width=50%></p>
 
 ## Acknowledgements
 A big thanks to:
